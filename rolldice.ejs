@@ -1,0 +1,21 @@
+<!-- we need to create the home.ejs file inside the folder called view ,,this is important bcz aap.set path bydefault tyr to
+find file inside view filder,,, you can also add this in another folder -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rolldice</title>
+</head>
+<body>
+    <h1>  random dice:
+        <%= 
+        
+        Math.floor(Math.random()*6)+1
+        
+        %>
+         <%# (this is a ejs comment syntax) %>
+    </h1>
+</body>
+</html>
